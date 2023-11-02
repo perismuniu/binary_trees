@@ -70,5 +70,6 @@ heap_t *array_to_heap(int *array, size_t size);
 int heap_extract(heap_t **root);
 int *heap_to_sorted_array(heap_t *heap, size_t *size);
 size_t binary_tree_height_A(const binary_tree_t *tree);
+binary_tree_t *right_rotate(binary_tree_t *y);
 
 #endif /*_BINARY_TREES_H_*/
